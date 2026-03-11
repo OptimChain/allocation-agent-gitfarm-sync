@@ -1,5 +1,6 @@
 import type { GreenhouseJob, JobMatch } from "./types.js";
 import type { CandidateProfile } from "../config/candidate.js";
+import type { RankedJob } from "./pushdown-query.js";
 
 /**
  * Score a job against the candidate profile.
@@ -85,6 +86,75 @@ export function findMatchingJobs(
   }
 
   // Sort by score descending
+  matches.sort((a, b) => b.score - a.score);
+  return matches.slice(0, limit);
+}
+
+/* ── Pushdown-Aware Matching ── */
+
+/**
+ * Convert pushdown query results (RankedJob[]) into JobMatch[] for downstream
+ * consumption by batch-greenhouse and other application scripts.
+ *
+ * This bridges the pushdown query engine with the existing application pipeline,
+ * allowing callers to use Redis-level filtered results instead of fetching all jobs.
+ */
+export function rankPushdownResults(
+  rankedJobs: RankedJob[],
+  candidate: CandidateProfile,
+  limit: number = 30,
+  minScore: number = 30
+): JobMatch[] {
+  const matches: JobMatch[] = [];
+
+  for (const rj of rankedJobs) {
+    const titleLower = rj.title.toLowerCase();
+    const locationLower = rj.location.toLowerCase();
+    let score = rj.score; // Start with pushdown score
+    const reasons = [...rj.matchedFacets.map((f) => `Pushdown: ${f}`)];
+
+    // Layer on candidate-specific scoring
+    for (const role of candidate.targetRoles) {
+      if (titleLower.includes(role)) {
+        score += 15;
+        reasons.push(`Profile role match: "${role}"`);
+      }
+    }
+
+    for (const loc of candidate.targetLocations) {
+      if (locationLower.includes(loc)) {
+        score += 10;
+        reasons.push(`Profile location: "${loc}"`);
+        break;
+      }
+    }
+
+    // Skill match against title
+    for (const skill of candidate.skills) {
+      if (titleLower.includes(skill)) {
+        score += 5;
+        reasons.push(`Skill in title: "${skill}"`);
+      }
+    }
+
+    if (score < minScore) continue;
+
+    matches.push({
+      job: {
+        id: parseInt(rj.jobId, 10) || 0,
+        title: rj.title,
+        absolute_url: rj.url,
+        updated_at: rj.lastSeenAt,
+        location: { name: rj.location },
+        departments: rj.department ? [{ id: 0, name: rj.department }] : [],
+      },
+      boardToken: rj.boardToken,
+      companyName: rj.companyName,
+      score,
+      matchReasons: reasons,
+    });
+  }
+
   matches.sort((a, b) => b.score - a.score);
   return matches.slice(0, limit);
 }
