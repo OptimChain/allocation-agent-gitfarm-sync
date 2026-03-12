@@ -11,7 +11,8 @@
     "batch-greenhouse": "node scripts/batch-greenhouse.mjs",
     "batch-dover": "node scripts/batch-dover.mjs",
     "lever-apply": "node scripts/lever-apply.mjs",
-    "check-status": "node scripts/check-status.mjs"
+    "check-status": "node scripts/check-status.mjs",
+    "dashboard": "node scripts/dashboard.mjs"
   },
   "dependencies": {
     "ioredis": "^5.4.0",
