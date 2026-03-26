@@ -1,0 +1,464 @@
+{
+  "discoveredAt": "2026-03-26T18:07:51.461Z",
+  "companies": {
+    "greenhouse": [],
+    "lever": [],
+    "unknown": [
+      {
+        "name": "EnseAI",
+        "slugs": [
+          "enseai",
+          "ense-ai",
+          "ense"
+        ],
+        "role": "Growth PM, Future Platforms",
+        "location": "NY",
+        "ats": "unknown",
+        "totalJobs": 0,
+        "jobs": []
+      },
+      {
+        "name": "Vals.ai",
+        "slugs": [
+          "valsai",
+          "vals-ai",
+          "vals",
+          "valsdotai"
+        ],
+        "role": "Head of Operations",
+        "location": "SF",
+        "ats": "unknown",
+        "totalJobs": 0,
+        "jobs": []
+      },
+      {
+        "name": "Quadrillion Labs",
+        "slugs": [
+          "quadrillionlabs",
+          "quadrillion-labs",
+          "quadrillion"
+        ],
+        "role": "Founding BizOps Lead",
+        "location": "NY",
+        "ats": "unknown",
+        "totalJobs": 0,
+        "jobs": []
+      },
+      {
+        "name": "Greenboard",
+        "slugs": [
+          "greenboard",
+          "greenboardio",
+          "greenboard-io"
+        ],
+        "role": "Operations and Strategy Associate",
+        "location": "NY",
+        "ats": "unknown",
+        "totalJobs": 0,
+        "jobs": []
+      },
+      {
+        "name": "Hera",
+        "slugs": [
+          "hera",
+          "heracare",
+          "hera-care",
+          "herahealth"
+        ],
+        "role": "Founding BizOps (Apollo Unit)",
+        "location": "NY",
+        "ats": "unknown",
+        "totalJobs": 0,
+        "jobs": []
+      },
+      {
+        "name": "Cellular Intelligence",
+        "slugs": [
+          "cellularintelligence",
+          "cellular-intelligence",
+          "cellintel"
+        ],
+        "role": "Chief of Staff",
+        "location": "Boston/Austin",
+        "ats": "unknown",
+        "totalJobs": 0,
+        "jobs": []
+      },
+      {
+        "name": "Rowspace",
+        "slugs": [
+          "rowspace",
+          "row-space"
+        ],
+        "role": "Business Operations Lead",
+        "location": "NY/SF",
+        "ats": "unknown",
+        "totalJobs": 0,
+        "jobs": []
+      },
+      {
+        "name": "Deeptune",
+        "slugs": [
+          "deeptune",
+          "deep-tune",
+          "deeptuneinc"
+        ],
+        "role": "Strategic Projects Lead",
+        "location": "NY",
+        "ats": "unknown",
+        "totalJobs": 0,
+        "jobs": []
+      },
+      {
+        "name": "HockeyStack",
+        "slugs": [
+          "hockeystack",
+          "hockey-stack"
+        ],
+        "role": "Strategy & Operations Principal",
+        "location": "SF",
+        "ats": "unknown",
+        "totalJobs": 0,
+        "jobs": []
+      },
+      {
+        "name": "Nevis",
+        "slugs": [
+          "nevis",
+          "neviswealth",
+          "nevis-wealth",
+          "getnevis"
+        ],
+        "role": "Founder's Associate (CEO Office)",
+        "location": "NY",
+        "ats": "unknown",
+        "totalJobs": 0,
+        "jobs": []
+      },
+      {
+        "name": "Superpower",
+        "slugs": [
+          "superpower",
+          "superpowerhealth",
+          "superpower-health",
+          "gosuperpower"
+        ],
+        "role": "Chief of Staff",
+        "location": "SF",
+        "ats": "unknown",
+        "totalJobs": 0,
+        "jobs": []
+      },
+      {
+        "name": "Arcade",
+        "slugs": [
+          "arcade",
+          "arcadesoftware",
+          "arcade-software",
+          "arcadeai"
+        ],
+        "role": "Chief of Staff",
+        "location": "SF",
+        "ats": "unknown",
+        "totalJobs": 0,
+        "jobs": []
+      },
+      {
+        "name": "Finch",
+        "slugs": [
+          "finch",
+          "finchlegal",
+          "finch-legal",
+          "tryfinch"
+        ],
+        "role": "Strategy & Operations, General",
+        "location": "NY",
+        "ats": "unknown",
+        "totalJobs": 0,
+        "jobs": []
+      },
+      {
+        "name": "Salient",
+        "slugs": [
+          "salient",
+          "salientlending",
+          "salient-lending"
+        ],
+        "role": "Founder's Office",
+        "location": "SF",
+        "ats": "unknown",
+        "totalJobs": 0,
+        "jobs": []
+      },
+      {
+        "name": "OffDeal",
+        "slugs": [
+          "offdeal",
+          "off-deal"
+        ],
+        "role": "Business Operations, GTM",
+        "location": "NY",
+        "ats": "unknown",
+        "totalJobs": 0,
+        "jobs": []
+      },
+      {
+        "name": "Abaka AI",
+        "slugs": [
+          "abakaai",
+          "abaka-ai",
+          "abaka"
+        ],
+        "role": "GTM Manager",
+        "location": "Bay Area",
+        "ats": "unknown",
+        "totalJobs": 0,
+        "jobs": []
+      },
+      {
+        "name": "Fireworks AI",
+        "slugs": [
+          "fireworksai",
+          "fireworks-ai",
+          "fireworks"
+        ],
+        "role": "Strategic Projects Lead",
+        "location": "Bay Area",
+        "ats": "unknown",
+        "totalJobs": 0,
+        "jobs": []
+      },
+      {
+        "name": "Bretton AI",
+        "slugs": [
+          "brettonai",
+          "bretton-ai",
+          "bretton"
+        ],
+        "role": "Deployment Strategist",
+        "location": "SF",
+        "ats": "unknown",
+        "totalJobs": 0,
+        "jobs": []
+      },
+      {
+        "name": "Lovable",
+        "slugs": [
+          "lovable",
+          "lovableai",
+          "lovable-ai"
+        ],
+        "role": "Finance & BizOps, Strategic Partnerships",
+        "location": "SF",
+        "ats": "unknown",
+        "totalJobs": 0,
+        "jobs": []
+      },
+      {
+        "name": "Regal",
+        "slugs": [
+          "regal",
+          "regalvoice",
+          "regal-voice",
+          "regalio",
+          "regal-io"
+        ],
+        "role": "Business Operations Associate",
+        "location": "NY",
+        "ats": "unknown",
+        "totalJobs": 0,
+        "jobs": []
+      },
+      {
+        "name": "AirOps",
+        "slugs": [
+          "airops",
+          "air-ops"
+        ],
+        "role": "Business Operations Manager",
+        "location": "SF",
+        "ats": "unknown",
+        "totalJobs": 0,
+        "jobs": []
+      },
+      {
+        "name": "Omnea",
+        "slugs": [
+          "omnea",
+          "omnea-io"
+        ],
+        "role": "Founding Growth Associate - US",
+        "location": "NY",
+        "ats": "unknown",
+        "totalJobs": 0,
+        "jobs": []
+      },
+      {
+        "name": "Northwood",
+        "slugs": [
+          "northwood",
+          "northwoodspace",
+          "northwood-space"
+        ],
+        "role": "Chief of Staff to the CTO",
+        "location": "LA",
+        "ats": "unknown",
+        "totalJobs": 0,
+        "jobs": []
+      },
+      {
+        "name": "Numeral",
+        "slugs": [
+          "numeral",
+          "numeralhq",
+          "numeral-hq"
+        ],
+        "role": "Business Operation & Strategy, Core Products",
+        "location": "SF",
+        "ats": "unknown",
+        "totalJobs": 0,
+        "jobs": []
+      },
+      {
+        "name": "Suno",
+        "slugs": [
+          "suno",
+          "sunoai",
+          "suno-ai"
+        ],
+        "role": "Senior Manager, Business Operations & Strategy",
+        "location": "NY/SF",
+        "ats": "unknown",
+        "totalJobs": 0,
+        "jobs": []
+      },
+      {
+        "name": "Encord",
+        "slugs": [
+          "encord",
+          "encordai",
+          "encord-ai"
+        ],
+        "role": "Founder's Associate",
+        "location": "SF",
+        "ats": "unknown",
+        "totalJobs": 0,
+        "jobs": []
+      },
+      {
+        "name": "Ambience",
+        "slugs": [
+          "ambience",
+          "ambiencehealthcare",
+          "ambience-healthcare"
+        ],
+        "role": "Chief of Staff, Office of the President",
+        "location": "SF",
+        "ats": "unknown",
+        "totalJobs": 0,
+        "jobs": []
+      },
+      {
+        "name": "Laurel",
+        "slugs": [
+          "laurel",
+          "laurelai",
+          "laurel-ai"
+        ],
+        "role": "Chief of Staff to CRO",
+        "location": "NY",
+        "ats": "unknown",
+        "totalJobs": 0,
+        "jobs": []
+      },
+      {
+        "name": "Polymarket",
+        "slugs": [
+          "polymarket",
+          "poly-market"
+        ],
+        "role": "Business Operations Lead",
+        "location": "NY",
+        "ats": "unknown",
+        "totalJobs": 0,
+        "jobs": []
+      },
+      {
+        "name": "Snorkel AI",
+        "slugs": [
+          "snorkelai",
+          "snorkel-ai",
+          "snorkel"
+        ],
+        "role": "Head of DaaS Strategy & Ops",
+        "location": "NY/SF",
+        "ats": "unknown",
+        "totalJobs": 0,
+        "jobs": []
+      },
+      {
+        "name": "Crusoe",
+        "slugs": [
+          "crusoe",
+          "crusoeinc",
+          "crusoe-energy",
+          "crusoeenergy"
+        ],
+        "role": "Business Operations Manager - Spark",
+        "location": "Denver",
+        "ats": "unknown",
+        "totalJobs": 0,
+        "jobs": []
+      },
+      {
+        "name": "Commure",
+        "slugs": [
+          "commure",
+          "commureinc"
+        ],
+        "role": "Chief of Staff",
+        "location": "SF",
+        "ats": "unknown",
+        "totalJobs": 0,
+        "jobs": []
+      },
+      {
+        "name": "Harvey",
+        "slugs": [
+          "harvey",
+          "harveyai",
+          "harvey-ai"
+        ],
+        "role": "GTM Strategy & Operations",
+        "location": "SF",
+        "ats": "unknown",
+        "totalJobs": 0,
+        "jobs": []
+      },
+      {
+        "name": "Anthropic",
+        "slugs": [
+          "anthropic"
+        ],
+        "role": "Strategy & Operations Manager",
+        "location": "NY/SF",
+        "ats": "unknown",
+        "totalJobs": 0,
+        "jobs": []
+      },
+      {
+        "name": "OpenAI",
+        "slugs": [
+          "openai",
+          "open-ai"
+        ],
+        "role": "Strategy and Operations, Education",
+        "location": "SF",
+        "ats": "unknown",
+        "totalJobs": 0,
+        "jobs": []
+      }
+    ]
+  },
+  "jobs": []
+}
