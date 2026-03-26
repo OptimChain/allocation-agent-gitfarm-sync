@@ -130,6 +130,21 @@ const JOBS = [
 
   // Polymarket (Series C, Prediction market, NY) - "Business Operations Lead"
   { company: "Polymarket", platform: "ashby", slug: "polymarket", jobId: "13f17951-8755-48ee-88e3-53c8df4c2e3b", title: "Market Operations Analyst", location: "New York" },
+
+  // ── NEWLY DISCOVERED (from research agent) ──
+
+  // EliseAI (Series E, AI for housing & healthcare, NY) - "Growth PM, Future Platforms"
+  { company: "EliseAI", platform: "ashby", slug: "eliseai", jobId: "7d2f5728-1ddf-49d6-87e8-54fc81cba65c", title: "Growth PM, Future Platforms | Housing", location: "New York City" },
+
+  // Hera (Seed, Care mgmt for senior patients, NY) - "Founding BizOps (Apollo Unit)"
+  { company: "Hera", platform: "ashby", slug: "hellohera", jobId: "f54090ee-4305-4430-9266-23f2eab43d6f", title: "Founding BizOps (Apollo Unit)", location: "New York, New York" },
+
+  // Cellular Intelligence (Series A, AI-native TechBio company, Boston/Austin) - "Chief of Staff"
+  { company: "Cellular Intelligence", platform: "ashby", slug: "cellular-intelligence", jobId: "17d6adf2-559d-4c89-b77c-e5974bfb58d3", title: "Chief of Staff", location: "Boston" },
+
+  // Finch (Series A, AI for personal injury law firms, NY) - "Strategy & Operations, General"
+  { company: "Finch", platform: "ashby", slug: "finch-legal", jobId: "e5fc1962-c077-45f6-879d-b58e6bfb5d5c", title: "Strategy & Operations, General", location: "New York City" },
+  { company: "Finch", platform: "ashby", slug: "finch-legal", jobId: "8129d8bd-94c7-4fbc-b372-0db721af627c", title: "GTM Strategy & Ops", location: "New York City" },
 ];
 
 // ── CLI Flags ──
