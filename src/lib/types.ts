@@ -74,6 +74,52 @@ export interface JobMatch {
   matchReasons: string[];
 }
 
+/* ── Chatbot Agent Types ── */
+
+export interface ChatMessage {
+  role: "user" | "assistant";
+  content: string;
+}
+
+export interface ChatSession {
+  id: string;
+  messages: ChatMessage[];
+  createdAt: string;
+  lastActiveAt: string;
+  context: ChatContext;
+}
+
+export interface ChatContext {
+  mode: "general" | "hand_analysis" | "range_review" | "quiz";
+  heroCards?: string[];
+  boardCards?: string[];
+  position?: string;
+  villainCount?: number;
+}
+
+export interface HandEvaluation {
+  cluster: "A" | "B" | "C" | "D" | "E";
+  clusterName: string;
+  description: string;
+  equity: number;
+  outs?: number;
+  drawType?: string;
+}
+
+export interface StartingHandTier {
+  tier: number;
+  label: string;
+  hands: string[];
+  equityRange: [number, number];
+}
+
+export interface BoardTexture {
+  type: "dry" | "wet" | "monotone" | "paired" | "connected" | "broadway" | "low";
+  flushPossible: boolean;
+  straightPossible: boolean;
+  pairedBoard: boolean;
+}
+
 export interface ApplicationStateRecord {
   metadata: {
     boardToken: string;

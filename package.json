@@ -11,9 +11,11 @@
     "batch-greenhouse": "node scripts/batch-greenhouse.mjs",
     "batch-dover": "node scripts/batch-dover.mjs",
     "lever-apply": "node scripts/lever-apply.mjs",
-    "check-status": "node scripts/check-status.mjs"
+    "check-status": "node scripts/check-status.mjs",
+    "chat": "node --import=tsx scripts/chat.mjs"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.95.1",
     "ioredis": "^5.4.0",
     "puppeteer-core": "^24.37.3"
   },
